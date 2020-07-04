@@ -1,0 +1,7 @@
+<h1>LISTAGEM DE CATEGORIAS</h1>
+
+<ul>
+    {% for category in categories %}
+    <li>Nome: {{ category.name }}, Tipo: {{ category.tipo }}</li>
+    {% endfor %}
+</ul>
